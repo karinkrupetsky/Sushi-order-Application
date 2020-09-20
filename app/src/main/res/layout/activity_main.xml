@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/size"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/annie_use_your_telescope"
+        android:gravity="center"
+        android:text="@string/sushiTime"
+        android:textColor="#000"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/passengers_linear_layout">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+                <RadioGroup
+                    android:id="@+id/rg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:text="@string/choose_rol"
+                        android:textColor="#000"
+                        android:layout_marginStart="10dp"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioButton
+                        android:id="@+id/rb1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:textStyle="bold"
+                        android:text="@string/maki" />
+
+                    <RadioButton
+                        android:id="@+id/rb2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:textStyle="bold"
+                        android:text="@string/NigiriTuna" />
+
+                    <RadioButton
+                        android:id="@+id/rb3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:textStyle="bold"
+                        android:text="@string/Latini" />
+
+                    <RadioButton
+                        android:id="@+id/rb4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:textStyle="bold"
+                        android:text="@string/vegeterian_comb" />
+
+                    <RadioButton
+                        android:id="@+id/rb5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:buttonTint="@color/colorAccent"
+                        android:fontFamily="@font/alegreya_sans_medium"
+                        android:textStyle="bold"
+                        android:text="@string/tokyo_comb" />
+                </RadioGroup>
+
+                <ImageView
+                    android:id="@+id/Sushi_image"
+                    android:layout_width="0dp"
+                    android:layout_height="200dp"
+                    android:layout_marginEnd="15dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="10dp"
+                    android:scaleType="fitXY" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp">
+
+                <TextView
+                    style="@style/Widget.AppCompat.TextView.SpinnerItem"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/choose_sauce"
+                    android:textColor="#000"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/cb1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorAccent"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/tariaki"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/cb2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorAccent"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/soya"
+                    android:textStyle="bold" />
+
+                <CheckBox
+                    android:id="@+id/cb3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/colorAccent"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/ginger"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="30dp"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/switch_fried"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Switch
+                    android:id="@+id/switch1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginEnd="20dp"
+                    android:checked="false"
+                    android:gravity="center"
+                    android:lines="1"
+                    android:text="No"
+                    android:textOff=""
+                    android:textOn="ON" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/alegreya_sans_medium"
+                android:text="@string/alergy"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Spinner
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+
+                    android:id="@+id/alergy_spinner" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:id="@+id/chef_image_view"
+                    android:scaleType="center"
+                    android:layout_marginEnd="15dp"/>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/alegreya_sans_medium"
+                android:text="@string/delivery_info"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:id="@+id/delivery_info"
+                android:layout_marginStart="10dp"
+                android:textStyle="bold" />
+
+            <CalendarView
+                android:id="@+id/calendar"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginEnd="10dp"
+                android:layout_weight="1" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginEnd="20dp"
+                android:layout_marginStart="10dp"
+                android:fontFamily="@font/alegreya_sans_medium"
+                android:text="@string/chosen_date"
+                android:layout_marginTop="10dp"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/chosen_date_tv"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:layout_marginStart="10dp"
+                android:text="@string/choose_hour"
+                android:layout_marginEnd="30dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/alegreya_sans_medium"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"
+                 />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TimePicker
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_width="0dp"
+                    android:background="@drawable/btn_shape"
+                    android:numbersTextColor="@color/color2"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+
+                    android:id="@+id/time_picker"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/comments_tv"
+                    android:textColor="#000"
+                    android:layout_marginStart="10dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:lines="4"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorAccent"
+                    android:hint="@string/comments_box"
+                    android:background="@drawable/comment_edit_text"
+                    android:outlineSpotShadowColor="@color/colorAccent"
+                    />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:id="@+id/chopStickLayout"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/text_view_seekbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_margin="20dp"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/numChopSticks"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                    <SeekBar
+                        android:id="@+id/seekBar"
+                        android:max="5"
+                        android:progress="0"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:id="@+id/imgchopstick">
+
+                    </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:text="@string/total_price"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#000"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:id="@+id/price_textview"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/alegreya_sans_medium"
+                    android:gravity="center"
+                    android:text="0$"
+                    android:textSize="30sp" />
+            </LinearLayout>
+            <Button
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/btn_shape"
+                android:layout_marginEnd="15dp"
+                android:layout_marginStart="15dp"
+                android:text="@string/order_btn"
+                android:id="@+id/order_btn" />
+            <ProgressBar
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:visibility="invisible"
+                android:id="@+id/progress_bar"/>
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:textColor="#000"
+                android:fontFamily="@font/alegreya_sans_medium"
+                android:textSize="35sp"
+                android:gravity="center"
+                android:id="@+id/end_order_tv"
+                android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

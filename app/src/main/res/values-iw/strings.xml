@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MatalaAndroid1</string>
+    <string name="choose_chef">בחר את השף שלך:</string>
+    <string name="chosen_date">תאריך שניבחר:</string>
+    <string name="end_order_txt">הזמנתך התקבלה! תודה ושיהיה לך יום מקסים :)</string>
+    <string name="invalid_date">תאריך לא תקין</string>
+    <string name="nuts">אגוזים</string>
+    <string name="milk">חלב</string>
+    <string name="missing_input">אנא תמלא\\י את כל השדות</string>
+    <string name="order_btn">בצע הזמנה</string>
+    <string name="total_price">מחיר סופי:</string>
+    <string name="soya_spinner">סויה</string>
+    <string name="select_roll">בחר רול :</string>
+    <string name="maki">מאקי - 3$</string>
+    <string name="NigiriTuna">ניגירי טונה - 4$</string>
+    <string name="Latini">לטיני רול - 6$</string>
+    <string name="vegeterian_comb">קומבינציה צמחונית - 7$</string>
+    <string name="tokyo_comb">קומבינציית טוקיו - 10$</string>
+    <string name="tariaki">טריאקי - 2$</string>
+    <string name="soya">סויה - 1$</string>
+    <string name="ginger">ג\'ינג\'ר - 3$</string>
+    <string name="sushiTime">זמן לסושי!</string>
+    <string name="choose_rol">אנא בחר\\י רול:</string>
+    <string name="choose_sauce">אנא בחר\\י רוטב:</string>
+    <string name="alergy">האם יש לך אלרגיה לאחד מהמרכיבים הבאים?</string>
+    <string name="choose_hour">בחר שעה למשלוח:</string>
+    <string name="numChopSticks">כמה צ\'ופ סטיקים תרצה\\י?</string>
+    <string name="invalid_time">שעה לא תקינה</string>
+    <string name="delivery_info">אנא בחר\\י פרטי משלוח וגלול מטה</string>
+    <string name="switch_fried">מעדיפ\\ה סושי מטוגן?</string>
+    <string name="comments_tv">הערות נוספות לשליח:</string>
+    <string name="comments_box">"  הערות"</string>
+    <string name="price_updated">מחיר עודכן</string>
+    <string name="No_alergies">אין אלרגיות</string>
+</resources>

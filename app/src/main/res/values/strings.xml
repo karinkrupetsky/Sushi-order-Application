@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">MatalaAndroid1</string>
+    <string-array name="hours">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+
+    <string name="choose_chef">Choose a chef:</string>
+    <string name="soya_spinner">soya</string>
+    <string name="milk">milk</string>
+    <string name="nuts">nuts</string>
+    <string name="invalid_date">Invalid date</string>
+    <string name="total_price">Total Price:</string>
+    <string name="order_btn">Order</string>
+    <string name="end_order_txt">Thank you for your order! have a wonderful day :)</string>
+    <string name="missing_input">Please fill all the fields and try again</string>
+    <string name="chosen_date">Chosen date:</string>
+    <string name="select_roll">select roll:</string>
+    <string name="maki">maki - 3$</string>
+    <string name="NigiriTuna">Nigiri Tuna - 4$</string>
+    <string name="Latini">Latini roll - 6$</string>
+    <string name="vegeterian_comb">Vegeterian combination - 7$</string>
+    <string name="tokyo_comb">Tokyo combination - 10$</string>
+    <string name="tariaki">Tariaki - 2$</string>
+    <string name="soya">Soya - 1$</string>
+    <string name="ginger">Ginger - 3$</string>
+    <string name="sushiTime">Sushi Time!</string>
+    <string name="choose_rol">choose roll:</string>
+    <string name="choose_sauce">Choose sauce :</string>
+    <string name="alergy">Do you have alergy to any of those?</string>
+    <string name="choose_hour">Choose hour for delivery:</string>
+    <string name="numChopSticks">How many Chop Sticks would you like?</string>
+    <string name="invalid_time">Invalid time</string>
+    <string name="delivery_info">Choose delivery info and scroll down</string>
+    <string name="switch_fried">Fried sushi roll?</string>
+    <string name="comments_tv">Additional comments:</string>
+    <string name="comments_box">"  comments"</string>
+    <string name="price_updated">Price updated</string>
+    <string name="No_alergies">No alergies</string>
+
+
+</resources>
